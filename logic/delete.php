@@ -1,0 +1,2 @@
+<?php
+// logikan hapus

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blur-nav {
+  background: rgba(42, 42, 42, 0.483);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.8px);
+  -webkit-backdrop-filter: blur(8.8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bg-gradasi1 {
+  background: #19cf2f;
+  background: linear-gradient(to bottom right, #19cf2f 29%, #177b1f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
